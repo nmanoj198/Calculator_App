@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(75deg,rgba(47, 101, 248, 0.521),rgba(255, 0, 0, 0.493));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 300px;
+    height: 420px;
+    background-color: rgb(148, 54, 54);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px black;
+    filter: drop-shadow(2px 2px 2px black);
+}
+#display{
+    width: 90%;
+    height: 50px;
+    /* border: none; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    padding-left: 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+input{
+    width: 60px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+input:hover{
+    background-color: black;
+    color: white;
+}
+div{
+    width: 100%;
+    height: 63px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Blue Color btn */
+#plus{
+    background-color: darkblue;
+    color: white;
+}
+#minus{
+    background-color: darkblue;
+    color: white;
+}
+#multiply{
+    background-color: darkblue;
+    color: white;
+}
+#division{
+    background-color: darkblue;
+    color: white;
+}
+#modulus{
+    background-color: darkblue;
+    color: white;
+}
+/* Hover Effect */
+#plus:hover{
+    background-color: white;
+    color: darkblue;
+}
+#minus:hover{
+    background-color: white;
+    color: darkblue;
+}
+#multiply:hover{
+    background-color: white;
+    color: darkblue;
+}
+#division:hover{
+    background-color: white;
+    color: darkblue;
+}
+#modulus:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#clear{
+    width: 45%;
+    background-color: red;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+#clear:hover{
+    background-color: white;
+    color: red;
+}
+#equals{
+    width: 45%;
+    background-color: red;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+#equals:hover{
+    background-color: white;
+    color: red;
+}
+
+#display{
+    background-image: linear-gradient(75deg,violet,indigo,blue,green,yellow,orange,red,violet);
+    background-size: 1800px;
+    background-position: 1800px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: colorAnimation 5s infinite;
+}
+@keyframes colorAnimation {
+    from{
+        background-position: 1800px;
+    }
+    to{
+        background-position: 0px;
+    }
+}
